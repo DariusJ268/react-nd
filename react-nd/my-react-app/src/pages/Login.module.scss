@@ -1,0 +1,41 @@
+.container {
+    height: 100%;
+    padding-top: 8rem;
+  }
+  
+  .form {
+    max-width: 30rem;
+    margin: 0 auto;
+    background-color: #f3e4e4;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: rgba(70, 27, 151, 0.25) 5px 5px 15px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .input {
+    margin-bottom: 1rem;
+    width: calc(100% - 2rem);
+  }
+  
+  .link {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .signUp {
+    color: $primary-color;
+    font-weight: 500;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
