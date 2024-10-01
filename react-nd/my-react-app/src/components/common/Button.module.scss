@@ -1,0 +1,23 @@
+.button {
+    padding: 1rem 1.5rem;
+    background-color: #3c0abb;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: #58497c;
+    }
+  }
+  
+  .rounded {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
